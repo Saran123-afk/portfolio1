@@ -1,112 +1,235 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Portfolio | นายศรัณยพงศ์ มุมทอง</title>
+    <title>Portfolio | นายศรัณยพงศ์ มุมทอง</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
-<link
-href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-rel="stylesheet"
-/>
-
-<link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<nav>
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
 
-<div class="logo">
-Portfolio
-</div>
+    <!-- Navbar -->
+    <nav>
 
-<ul>
+        <div class="logo">
+            Portfolio
+        </div>
 
-<li><a href="#home">หน้าหลัก</a></li>
+        <ul>
 
-<li><a href="#about">ประวัติ</a></li>
+            <li><a href="#home">หน้าหลัก</a></li>
 
-<li><a href="#education">การศึกษา</a></li>
+            <li><a href="#about">ประวัติ</a></li>
 
-<li><a href="#activity">ผลงาน</a></li>
+            <li><a href="#education">การศึกษา</a></li>
 
-<li><a href="#contact">ติดต่อ</a></li>
+            <li><a href="#activity">ผลงาน</a></li>
 
-</ul>
+            <li><a href="#contact">ติดต่อ</a></li>
 
-</nav>
+        </ul>
 
-<section class="hero" id="home">
+    </nav>
 
-<div class="hero-text" data-aos="fade-right">
+    <!-- Home -->
 
-<h1>นายศรัณยพงศ์ มุมทอง</h1>
+    <section id="home" class="hero">
 
-<h2>Portfolio</h2>
+        <div class="hero-left" data-aos="fade-right">
 
-<p>
-นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6<br>
-โรงเรียนพานทอง
-</p>
+            <h3>PORTFOLIO</h3>
 
-<a href="#about" class="btn">
-เริ่มต้น
-</a>
+            <h1>นายศรัณยพงศ์ มุมทอง</h1>
 
-</div>
+            <p>
 
-<div class="hero-img" data-aos="fade-left">
+                นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
 
-<img src="assets/profile.jpg">
+                <br>
 
-</div>
+                โรงเรียนพานทอง
 
-</section>
+            </p>
 
-<section id="about">
+            <a href="#about" class="btn">
+                เริ่มต้น
+            </a>
 
-<h1 data-aos="fade-up">
-ประวัติส่วนบุคคล
-</h1>
+        </div>
 
-</section>
+        <div class="hero-right" data-aos="fade-left">
 
-<section id="education">
+            <img src="assets/profile.png" alt="Profile">
 
-<h1 data-aos="fade-up">
-ประวัติการศึกษา
-</h1>
+        </div>
 
-</section>
+    </section>
 
-<section id="activity">
+    <!-- About -->
 
-<h1 data-aos="fade-up">
-ผลงานและกิจกรรม
-</h1>
+    <section id="about">
 
-</section>
+        <div class="title" data-aos="fade-up">
 
-<section id="contact">
+            <h1>ประวัติส่วนบุคคล</h1>
 
-<h1 data-aos="fade-up">
-ช่องทางการติดต่อ
-</h1>
+        </div>
 
-</section>
+        <div class="about-box">
 
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+            <img src="assets/profile.png" data-aos="zoom-in">
 
-<script src="script.js"></script>
+            <div class="about-info" data-aos="fade-left">
+
+                <h2>ข้อมูลส่วนตัว</h2>
+
+                <p><b>ชื่อ :</b> นายศรัณยพงศ์ มุมทอง</p>
+
+                <p><b>ชื่อเล่น :</b> __________</p>
+
+                <p><b>วันเกิด :</b> __________</p>
+
+                <p><b>อายุ :</b> __________</p>
+
+                <p><b>งานอดิเรก :</b> __________</p>
+
+                <p><b>ความสามารถ :</b> __________</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+
+        <div class="title" data-aos="fade-up">
+
+            <h1>ประวัติการศึกษา</h1>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="box" data-aos="fade-right">
+
+                <h2>ประถมศึกษา</h2>
+
+                <p>โรงเรียน...................</p>
+
+            </div>
+
+            <div class="box" data-aos="fade-left">
+
+                <h2>มัธยมศึกษาตอนต้น</h2>
+
+                <p>โรงเรียน...................</p>
+
+            </div>
+
+            <div class="box" data-aos="fade-right">
+
+                <h2>มัธยมศึกษาตอนปลาย</h2>
+
+                <p>โรงเรียนพานทอง</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Activity -->
+
+    <section id="activity">
+
+        <div class="title" data-aos="fade-up">
+
+            <h1>ผลงานและกิจกรรม</h1>
+
+        </div>
+
+        <div class="card-area">
+
+            <div class="card" data-aos="zoom-in">
+
+                <img src="assets/activity1.jpg">
+
+                <h3>กิจกรรมที่ 1</h3>
+
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+
+                <img src="assets/activity2.jpg">
+
+                <h3>กิจกรรมที่ 2</h3>
+
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+
+                <img src="assets/activity3.jpg">
+
+                <h3>กิจกรรมที่ 3</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <div class="title" data-aos="fade-up">
+
+            <h1>ช่องทางการติดต่อ</h1>
+
+        </div>
+
+        <div class="contact-box">
+
+            <p>📞 โทรศัพท์ : 08X-XXX-XXXX</p>
+
+            <p>📧 Email : example@email.com</p>
+
+            <p>📘 Facebook : __________</p>
+
+            <p>📷 Instagram : __________</p>
+
+            <p>💬 LINE : __________</p>
+
+        </div>
+
+    </section>
+
+    <!-- Back to Top -->
+
+    <button id="topBtn">↑</button>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
 
